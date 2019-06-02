@@ -1,0 +1,19 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="container tarefa-container">
+  <div style="text-align:center">
+    <h1 class="tarefa-title"> {{ title }} </h1>
+    <nav class="row">
+      <p aling="center"> Páginas: 
+        <a routerLink="/tarefas">Tarefas</a> -> 
+        <a routerLink="/dashboard">Dashboard</a>
+      </p>
+    </nav>
+  </div>
+  <div class="row tarefa-row">
+    <div class="col-md-12">
+        <router-outlet></router-outlet>
+        <app-messages></app-messages>
+    </div>
+  </div>
+</div>
+ 

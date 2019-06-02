@@ -1,0 +1,26 @@
+.tarefa-container {
+    background-color: rgba(62, 146, 121, 0.315);
+    
+}
+
+.tarefa-title {
+    text-align: center;
+    color: rgba(49, 49, 148, 0.767)
+}
+
+.tarefa-row {
+    margin-left: .1em;
+    margin-right: .1em;
+    margin-top: .1em;
+    background-color: rgba(222, 228, 226, 0.397);
+    background-size: 3em;
+    border-radius: .3em;
+}
+
+p {
+    align-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 1em;
+    margin-top: .5em;
+    color: rgb(85, 80, 80);
+}

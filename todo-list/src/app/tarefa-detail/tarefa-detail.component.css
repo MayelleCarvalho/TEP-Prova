@@ -1,0 +1,37 @@
+.tarefa-title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: inherit;
+    color: rgb(30, 98, 161);
+    text-align: center;
+}
+
+.tarefa-detail {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.tarefa-porcent {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: crimson;
+    background-color: rgba(22, 155, 33, 0.315);
+}
+
+button {
+    align-self: center;
+    margin-top: 20px;
+    font-family: Arial;
+    background-color: rgba(28, 25, 187, 0.623);
+    border: none;
+    color: aliceblue;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    cursor: hand;
+  }
+
+  .tarefa-card{
+    background-color: rgba(222, 228, 226, 0.397);
+    color: rgb(30, 98, 161);
+  }
+

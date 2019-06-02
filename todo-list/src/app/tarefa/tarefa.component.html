@@ -1,0 +1,24 @@
+<h2 class="tarefa-title">Minhas tarefas:</h2>
+
+<div class="row tarefa-table">
+  <table style="width: 100%" class="table">
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Tarefa</th>
+        <th>Responsavel</th>
+        <th>Porcentagem</th>
+      </tr>
+    </thead>
+    <tbody  *ngFor="let tarefa of tarefas">
+      <tr>
+          <td>{{tarefa.id}}</td>
+          <a routerLink="/detail/{{tarefa.id}}"><td align="left" >{{tarefa.descricao}}</td></a>
+          <td align="left">{{tarefa.responsavel.nome}}</td>
+          <td>{{tarefa.porcentagem * 100}}%</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+

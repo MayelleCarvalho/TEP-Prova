@@ -1,0 +1,13 @@
+
+<div *ngIf="messageService.messages.length" class="card tarefa-card" style="width: 100%;">
+  <div class="card-body">
+    <h4 class="card-title tarefa-title">Mensagens:</h4>
+    <div *ngFor='let message of messageService.messages'> 
+      <h5 class="card-text">{{message}}</h5>
+      <br>
+    </div>
+    <button class="clear"
+        (click)="messageService.clear()">clear</button>
+  </div>
+</div>
+<br>

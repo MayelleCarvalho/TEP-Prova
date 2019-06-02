@@ -1,0 +1,15 @@
+<br>
+<div *ngIf="tarefa" class="card tarefa-card" style="width: 100%;">
+  <div class="card-body card-tarefa">
+    <h4 class="tarefa-title">Tarefa {{tarefa.id}}</h4>
+    <div class="tarefa-detail"> 
+      <h5>{{tarefa.descricao}}</h5>
+      <p> <em>Responsável:  {{tarefa.responsavel.nome}}</em></p>
+      <p class="tarefa-porcent">{{tarefa.porcentagem * 100}}%</p>
+    </div>
+    <button (click)="goBack()">
+        Voltar
+    </button>
+  </div>
+</div>
+<br>
